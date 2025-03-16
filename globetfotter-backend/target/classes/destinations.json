@@ -1,0 +1,130 @@
+[
+  {
+    "city": "Paris",
+    "country": "France",
+    "clues": ["This city is home to a famous tower that sparkles every night.", "Known as the 'City of Love' and a hub for fashion and art."],
+    "fun_fact": ["The Eiffel Tower was supposed to be dismantled after 20 years but was saved because it was useful for radio transmissions!", "Paris has only one stop sign in the entire city—most intersections rely on priority-to-the-right rules."],
+    "trivia": ["This city is famous for its croissants and macarons. Bon appétit!", "Paris was originally a Roman city called Lutetia."],
+    "wrongAnswers": ["Berlin", "Tokyo", "Madrid"]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": ["Known as the 'City that Never Sleeps'.", "Home to a famous statue that was a gift from France."],
+    "fun_fact": ["Times Square is named after The New York Times newspaper.", "Central Park is larger than the principality of Monaco!"],
+    "trivia": ["Famous for its yellow taxis and Broadway shows.", "The Statue of Liberty arrived in pieces and was assembled on Liberty Island."],
+    "wrongAnswers": ["Los Angeles", "Toronto", "Chicago"]
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "clues": ["Blend of ultramodern and traditional, from neon-lit skyscrapers to historic temples.", "Hosts the busiest pedestrian crossing in the world."],
+    "fun_fact": ["Vending machines sell everything from drinks to umbrellas.", "Most Michelin-starred restaurants globally."],
+    "trivia": ["Originally a fishing village called Edo.", "Cherry blossom festivals in spring."],
+    "wrongAnswers": ["Beijing", "Seoul", "Osaka"]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": ["World-famous Opera House with a sail-like design.", "Massive harbor bridge often climbed by tourists."],
+    "fun_fact": ["Over 100 beaches, including Bondi.", "Hosted the 2000 Summer Olympics."],
+    "trivia": ["Opera House took 14 years to build.", "Largest city in Australia but not the capital."],
+    "wrongAnswers": ["Melbourne", "Auckland", "Brisbane"]
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "clues": ["Known as the 'Eternal City'.", "Home to an ancient amphitheater where gladiators fought."],
+    "fun_fact": ["Colosseum could hold up to 80,000 spectators.", "Rome has a country within it—Vatican City!"],
+    "trivia": ["Founded in 753 BC by Romulus and Remus.", "Ancient roads are still used today."],
+    "wrongAnswers": ["Venice", "Athens", "Florence"]
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "clues": ["Known for a church under construction for over a century.", "Famous for Gaudí's architecture."],
+    "fun_fact": ["Sagrada Família is still unfinished!", "Beaches created for 1992 Olympics."],
+    "trivia": ["Home to FC Barcelona.", "Located on the Mediterranean coast."],
+    "wrongAnswers": ["Madrid", "Valencia", "Seville"]
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "clues": ["Once divided by a wall during the Cold War.", "Capital of a country famous for beer."],
+    "fun_fact": ["More bridges than Venice.", "Home to Brandenburg Gate."],
+    "trivia": ["Berlin Wall fell in 1989.", "Known for vibrant art scene."],
+    "wrongAnswers": ["Munich", "Frankfurt", "Hamburg"]
+  },
+  {
+    "city": "Cairo",
+    "country": "Egypt",
+    "clues": ["Near the Pyramids of Giza.", "The Nile River flows through this city."],
+    "fun_fact": ["Home to the Great Sphinx.", "Known as 'City of a Thousand Minarets'."],
+    "trivia": ["Pyramids built 4,500 years ago.", "Egyptians created hieroglyphics."],
+    "wrongAnswers": ["Alexandria", "Casablanca", "Amman"]
+  },
+  {
+    "city": "Moscow",
+    "country": "Russia",
+    "clues": ["Home to colorful domes of St. Basil's Cathedral.", "Largest city in Russia."],
+    "fun_fact": ["Moscow has the most billionaires in Europe.", "Moscow Metro stations are like palaces."],
+    "trivia": ["Capital of Russia.", "City spans two continents: Europe and Asia."],
+    "wrongAnswers": ["Saint Petersburg", "Kiev", "Warsaw"]
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "clues": ["Famous for its giant statue of Christ.", "Hosts one of the biggest carnivals in the world."],
+    "fun_fact": ["Sugarloaf Mountain is a top attraction.", "Hosted 2016 Summer Olympics."],
+    "trivia": ["Name means 'River of January'.", "Known for Copacabana Beach."],
+    "wrongAnswers": ["São Paulo", "Buenos Aires", "Lima"]
+  },
+  {
+    "city": "Dubai",
+    "country": "UAE",
+    "clues": ["Home to the tallest building in the world.", "Famous for luxury shopping and ultramodern architecture."],
+    "fun_fact": ["Burj Khalifa is 828 meters tall.", "Artificial islands shaped like a palm tree."],
+    "trivia": ["Known for indoor skiing in a desert.", "Hosts world's only 7-star hotel."],
+    "wrongAnswers": ["Abu Dhabi", "Doha", "Muscat"]
+  },
+  {
+    "city": "London",
+    "country": "UK",
+    "clues": ["City of Big Ben and double-decker buses.", "Home to a royal palace."],
+    "fun_fact": ["London Eye offers panoramic views.", "The Tube is the oldest metro system."],
+    "trivia": ["River Thames flows through it.", "Has hosted Olympics three times."],
+    "wrongAnswers": ["Manchester", "Edinburgh", "Dublin"]
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "clues": ["Home to a tall tower with panoramic views.", "Largest city in Canada."],
+    "fun_fact": ["CN Tower used to be the tallest free-standing structure.", "Over 140 languages are spoken here."],
+    "trivia": ["Hosts Toronto International Film Festival.", "Close to Niagara Falls."],
+    "wrongAnswers": ["Vancouver", "Montreal", "Ottawa"]
+  },
+  {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "clues": ["City that sits on two continents.", "Home to Hagia Sophia."],
+    "fun_fact": ["Formerly called Byzantium and Constantinople.", "Only city to span Europe and Asia."],
+    "trivia": ["Blue Mosque is a major attraction.", "Famous for Grand Bazaar."],
+    "wrongAnswers": ["Ankara", "Athens", "Cairo"]
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "clues": ["Known for canals and bikes.", "Famous for tulips and windmills."],
+    "fun_fact": ["Has more bikes than people.", "Anne Frank's house is here."],
+    "trivia": ["Red Light District is famous.", "Also known for cheese markets."],
+    "wrongAnswers": ["Rotterdam", "Brussels", "Copenhagen"]
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "clues": ["City of temples and street food.", "Home to the Grand Palace."],
+    "fun_fact": ["Longest city name in the world (officially).", "Floating markets are a big attraction."],
+    "trivia": ["Known as Krung Thep locally.", "Hosts the famous Chatuchak market."],
+    "wrongAnswers": ["Phuket", "Hanoi", "Manila"]
+  }
+]
