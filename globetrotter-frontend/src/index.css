@@ -1,0 +1,220 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transition: background-image 0.8s ease-in-out;
+}
+
+/* Keep existing styles for .app */
+.app {
+  background: rgba(255, 255, 255, 0.9); /* Transparent white */
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+}
+
+
+.app {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 28px;
+}
+
+.scoreboard {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  color: #555;
+}
+
+.question-card h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.options button {
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #007bff;
+  background: white;
+  color: #007bff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.options button:hover {
+  background: #007bff;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.feedback {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.feedback.correct {
+  background: #d4edda;
+  color: #155724;
+}
+
+.feedback.incorrect {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.next-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #127eff; /* Blue */
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.next-button:hover {
+  background: #0056b3; /* Darker Blue */
+}
+
+
+.option-button {
+  width: 50%;
+  padding: 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.option-button.correct {
+  background: #28a745; /* Green */
+}
+
+.option-button.incorrect {
+  background: #6c757d; /* Gray */
+}
+
+.challenge-friend {
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #b47a05; /* Blue */
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="text"] {
+  padding: 0.75rem 1rem;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  margin: 1rem auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  display: block;
+}
+
+/* Focus and Hover Effects */
+input[type="text"]:focus {
+  outline: none;
+  border-color: #4f46e5; /* Indigo-600 */
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.3); /* Indigo glow */
+}
+
+input[type="text"]:hover {
+  border-color: #4f46e5;
+}
+
+/* Placeholder style */
+input[type="text"]::placeholder {
+  color: #aaa;
+  opacity: 1;
+}
+
+/* Optional: Style the button next to it */
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  background-color: #4f46e5; /* Indigo-600 */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #4338ca; /* Indigo-700 */
+}
+
+button:active {
+  background-color: #3730a3; /* Indigo-800 */
+}
