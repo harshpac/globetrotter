@@ -34,8 +34,12 @@ public class ChallengeService {
 
     if (invite == null) throw new IllegalArgumentException("Invalid invite");
     return ChallengeInvite.builder()
+        .inviterName(invite.getInviterName())
+        .inviterId(invite.getInviterId())
+        .inviterScore(invite.getInviterScore())
         .newGame(gameService.generateNewGame())
         .build();
+  }
   }
 
 }
