@@ -15,7 +15,7 @@ Dynamic game data from backend
 # Setup Steps:
 1. Clone the Repository
 
-git clone https://github.com/harshpac/globetrotter
+`git clone https://github.com/harshpac/globetrotter`
 cd globetrotter
 
 
@@ -25,7 +25,7 @@ Maven 3.x
 
 cd backend
 mvn clean install
-java -jar target/your-backend-app.jar server config.yml
+`java -jar target/your-backend-app.jar server config.yml`
 This starts the backend on port 8082 (adjust as per the config.yml).
 
 # Frontend Setup (React + Vite)
