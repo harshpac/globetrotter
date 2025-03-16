@@ -15,7 +15,7 @@ Dynamic game data from backend
 # Setup Steps:
 1. Clone the Repository
 
-git clone https://github.com/your-username/globetrotter.git
+git clone https://github.com/harshpac/globetrotter
 cd globetrotter
 
 
