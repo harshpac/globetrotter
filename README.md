@@ -33,6 +33,6 @@ Node.js (v16 or above recommended)
 npm or yarn
 
 # Challenge Flow
-User A plays the game and clicks "Challenge a Friend" to generate a unique link.
-User B opens the link, sees User A's name & score, and takes on the challenge.
-Scoreboard updates as users play!
+- User A plays the game and clicks "Challenge a Friend" to generate a unique link.
+- User B opens the link, sees User A's name & score, and takes on the challenge.
+- Scoreboard updates as users play!
